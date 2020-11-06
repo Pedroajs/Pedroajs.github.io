@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+ body {
+    background-color: #eeeeee;
+    text-align: center;
+    font-family:  'Space Mono', monospace;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: 0;
+
+    padding-top: 100px;
+    padding-bottom: 40px;
+} 
+.fullscreen{
+   width:100%;
+   height: 100%;
+   background: url('./img/home-office-569153_1920.jpg');
+   background-color: rgba(0, 0, 0, 0.7);
+   background-blend-mode: color;
+
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1 {
+    font-size: 2em;
+    text-align: center;
+}
+p{
+    text-align: center;
+    color:#eeeeee;
+    font-size: 1.45em;
+    font-weight: 500;
+}
+.minha-foto{
+    border-radius: 100%;
+    border: 5px solid white;
+
+    filter: drop-shadow(0 0 0.75rem white)
+}
+
+.titulo-h1{
+    color:#eeeeee;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    font-family: open sans-serif;
+    text-align: center;
+}
+.techs{
+    width:100%;
+    margin: 0 auto;
+    margin-top: 4%;
+}
+.techs-lista{
+    display: inline-block;
+    margin: 2% 2%;
+}
+.tech{
+    filter: drop-shadow(0 0 0.75rem rgb(160, 0, 210))
+}
+ .lista-redes{
+    list-style-type: none;
+    padding: 0;
+/* 
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px; */
+
+} 
+h3{
+    color: white;
+    font-size: 1.5em;
+    margin-bottom: 2%;
+    text-align: center;
+}
+.contato{
+   display: inline-block;
+   list-style-type: none;
+   margin-left: 2%;
+}
+
+.contato:hover{
+    filter: drop-shadow(0 0 0.75rem white)
+}
